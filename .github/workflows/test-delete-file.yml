@@ -1,7 +1,7 @@
 name: test-delete-file
 on:
   schedule:
-    - cron: "0 21 * * *"
+    - cron: "0 21 1 * *"
 jobs:
   remove-test-file:
     runs-on: ubuntu-latest
