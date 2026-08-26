@@ -1,7 +1,7 @@
 name: test-create-file
 on:
   schedule:
-    - cron: "0 9 * * *"
+    - cron: "0 9 1 * *"
 jobs:
   create-test-file:
     runs-on: ubuntu-latest
